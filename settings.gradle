@@ -1,0 +1,4 @@
+rootProject.name = 'Snow'
+include 'Snowdao'
+include 'Snowservice'
+include 'Snowweb'
