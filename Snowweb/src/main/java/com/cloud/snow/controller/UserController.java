@@ -1,4 +1,4 @@
-package com.cloud.snow;
+package com.cloud.snow.controller;
 
 import com.cloud.snow.entity.User;
 import com.cloud.snow.redis.RedisUtil;
