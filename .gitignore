@@ -1,4 +1,4 @@
 .idea
 .gradle
 **/build
-!Snowweb/build/libs
+!**.*/Snowweb-1.0-SNAPSHOT.jar
