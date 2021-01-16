@@ -4,7 +4,7 @@ MAINTAINER yanchen wenjuyanchen@foxmail.com
 
 VOLUME /tmp
 
-ADD Snowweb/build/libs/Snowweb-1.0-SNAPSHOT.jar Snow-1.0.jar
+ADD Snowweb/build/libs/Snowweb-1.0-SNAPSHOT.jar /Snow-1.0.jar
 
 RUN bash -c 'touch /Snow-1.0.jar'
 
