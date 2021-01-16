@@ -10,4 +10,4 @@ RUN bash -c 'touch /Snow-1.0.jar'
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar:","/Snow-1.0.jar"]
+ENTRYPOINT ["java","-jar","/Snow-1.0.jar"]
