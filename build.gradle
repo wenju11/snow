@@ -32,7 +32,6 @@ subprojects {
         jcenter()
         mavenCentral()
     }
-
     dependencies {
         dependencies {
             compile group: 'org.testng', name: 'testng', version: '7.3.0'
