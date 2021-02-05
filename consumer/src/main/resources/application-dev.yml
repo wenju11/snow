@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: consumer-boot-an
+  registry:
+    protocol: zookeeper
+    address: wenju.snow:2181
+  consumer:
+    loadbalance: roundrobin

@@ -1,9 +1,0 @@
-jar{
-    manifest{
-        attributes('Main-Class':'com.cloud.snow.SnowApplication')
-    }
-}
-dependencies {
-    compile(project(":Snowservice"))
-    compile 'org.springframework.boot:spring-boot-starter-web:2.4.1'
-}
