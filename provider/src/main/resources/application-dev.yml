@@ -1,0 +1,8 @@
+dubbo:
+    application:
+      name: provider-boot-an
+    registry:
+      protocol: zookeeper
+      address: wenju.snow:2181
+    protocol:
+      port: 28803
