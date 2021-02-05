@@ -1,4 +1,3 @@
-rootProject.name = 'Snow'
-include 'Snowdao'
-include 'Snowservice'
-include 'Snowweb'
+include 'library'
+include 'provider'
+include 'consumer'
