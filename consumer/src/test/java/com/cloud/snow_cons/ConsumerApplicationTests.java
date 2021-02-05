@@ -1,8 +1,8 @@
-package com.cloud.rain_prov;
+package com.cloud.snow_cons;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.cloud.rain_lib.IUserService;
+import com.cloud.snow_lib.IUserService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,7 +18,7 @@ public class ConsumerApplicationTests {
 
     @Test
     public void context(){
+        System.out.println("....1111....");
         System.out.println(userService.hello());
-//        System.out.println("dafda");
     }
 }

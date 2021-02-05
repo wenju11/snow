@@ -1,7 +1,8 @@
-package com.cloud.rain_prov.service;
+package com.cloud.snow_prov.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.cloud.rain_lib.IUserService;
+
+import com.cloud.snow_lib.IUserService;
 import org.springframework.stereotype.Component;
 
 /**

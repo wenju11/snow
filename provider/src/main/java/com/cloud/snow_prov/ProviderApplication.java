@@ -1,4 +1,4 @@
-package com.cloud.rain_prov;
+package com.cloud.snow_prov;
 
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
