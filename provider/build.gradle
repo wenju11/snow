@@ -1,0 +1,9 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile(project(":library"))
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.1'
+    compile group: 'com.alibaba.boot', name: 'dubbo-spring-boot-starter', version: '0.2.0'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.4.1'
+}
