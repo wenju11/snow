@@ -4,20 +4,17 @@ subprojects {
             mavenLocal()
             mavenCentral()
         }
+        dependencies {
+            classpath("org.springframework.boot:spring-boot-gradle-plugin:2.4.1")
+        }
     }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.4.1")
-    }
-
-    apply plugin: 'java'
-    apply plugin: 'idea'
+    apply plugin: "java"
+    apply plugin: "idea"
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
-
     repositories {
         mavenLocal()
-        jcenter()
         mavenCentral()
     }
     test {
