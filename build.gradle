@@ -1,40 +1,26 @@
-buildscript {
-    repositories {
-        mavenLocal()
-        jcenter()
-        mavenCentral()
+subprojects {
+    buildscript {
+        repositories {
+            mavenLocal()
+            mavenCentral()
+        }
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.4.1")
     }
-}
 
-allprojects {
     apply plugin: 'java'
-    group 'com.cloud'
-    version '1.0-SNAPSHOT'
+    apply plugin: 'idea'
 
-    sourceCompatibility = '1.8'
-    targetCompatibility = '1.8'
-
-    tasks.withType(JavaCompile){
-        options.encoding('UTF-8')
-    }
-}
-
-subprojects {
-    apply plugin: 'io.spring.dependency-management'
-    apply plugin: 'org.springframework.boot'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 
     repositories {
         mavenLocal()
         jcenter()
         mavenCentral()
     }
-    dependencies {
-        dependencies {
-            compile group: 'org.testng', name: 'testng', version: '7.3.0'
-            compile group: 'com.alibaba', name: 'fastjson', version: '1.2.73'
-        }
+    test {
+        useJUnitPlatform()
     }
 }
