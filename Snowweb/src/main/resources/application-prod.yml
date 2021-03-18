@@ -7,8 +7,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://60.205.195.79:3306/snow?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: c2hhb2Zlbmd4aWE=
+    username: snow
+    password: c25vdw==
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   redis:
